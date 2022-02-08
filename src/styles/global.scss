@@ -1,8 +1,11 @@
 :root {
-  --yellow         : #FFCC29;
-  --blue           : #1D539E;
-  --gray           : #828799;
-  --page-background: #F9FBFC;
+  --yellow: #FFCC29;
+  --blue  : #1D539E;
+  --gray  : #828799;
+  --white : #F9FBFC;
+  --black : #000000;
+
+  --page-background: var(--white);
 }
 
 * {
@@ -23,7 +26,19 @@
   }
 }
 
-body {}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+body {
+  background-color: var(--page-background);
+  color           : var(--gray)
+}
 
 body,
 input,
