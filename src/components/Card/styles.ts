@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import listStyleItem from '../../assets/check.svg';
 
 export const Container = styled.div`
     border-radius: 0.5rem;

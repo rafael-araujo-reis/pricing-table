@@ -10,7 +10,6 @@ export function Card() {
       </div>
       <div className="body">
 
-
         <div className="price">
           <h2>
             R$ 29<span>,00 </span>

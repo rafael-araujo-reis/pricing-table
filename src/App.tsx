@@ -1,6 +1,6 @@
-import { Header } from './components/Header';
-import { Card } from './components/Card';
-import './styles/styles.scss';
+import { Header } from "./components/Header";
+import { Card } from "./components/Card";
+import "./styles/styles.scss";
 
 function App() {
   return (
